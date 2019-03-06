@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\jsmn\jsmn.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\jsmn\jsmn.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{B6936A35-AC14-4104-B4A2-9AC2DF824A87}</ProjectGuid>
